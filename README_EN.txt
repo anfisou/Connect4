@@ -1,10 +1,13 @@
-Para executar os algoritmos de decisão e o jogo do 4 em linha, apenas precisa de garantir que tem alguma versão recente do Java instalada.
-Assim apenas precisamos de compilar todos os ficheiros executando a seguinte linha de instuções na shell:
+This project was developed for the subject 'Artificial Intelligence' and implements a Connect 4 game against an opponent that can play using different algorithms. 
+You can choose between the Minimax, the Minimax with alpha-beta pruning and the Monte Carlo Tree Search algorithms.
 
+In order to execute the game you need to compile all the .java files using:
+```
 javac *.java
+```
 
-Agora apenas precisamos de executar o código recorrendo à instrução:
+To run the code you only need to execute one of the following commands:
+- ```java Jogo4Linha Minimax ```
+- ```java Jogo4Linha MinimaxAlphaBeta ```
+- ```java Jogo4Linha MonteCarlo ```
 
-java Jogo4Linha strategy 
-
-em que strategy é o nome do algoritmo que queremos usar (pode ser "Minimax", "MinimaxAlphaBeta" ou "MonteCarlo").
