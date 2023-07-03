@@ -5,7 +5,7 @@ Para poder executar o código é necessário compilar todos os ficheiros .java u
 javac *.java
 ```
 
-Agora apenas precisamos de executar o código recorrendo a uma das seguintes instruçôes:
+Agora apenas precisamos de executar o código recorrendo a uma das seguintes instruções:
 - ```java Jogo4Linha Minimax ```
 - ```java Jogo4Linha MinimaxAlphaBeta ```
 - ```java Jogo4Linha MonteCarlo ```
